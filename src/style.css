@@ -17,3 +17,78 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
 }
+.tasks {
+    width: 80%;
+    background: #ece9e9;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task {
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    min-height: 70px;
+    align-items: center;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+.text {
+    max-width: 50%;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.task button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.task button:hover {
+    cursor: pointer;
+    background: darkred;
+    transition: 1s all;
+}
+textarea {
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    resize:none;
+}
+.createBtn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.createBtn:hover {
+    background: darkblue;
+    cursor: pointer;
+    transition: 1s all;
+}
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 5px;
+}
