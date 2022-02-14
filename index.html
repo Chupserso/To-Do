@@ -16,34 +16,10 @@
         </div>
     </header>
     <section class="tasks">
-        <form method="dialog" onsubmit="createOrder">
+        <form method="dialog" onsubmit="createOrder(this)">
             <textarea name="text" id="text" placeholder="Your task:"></textarea>
             <br><input type="submit" value="Create" class="createBtn">
         </form>
-        <div class="task">
-            <div class="text">Сделать уборку</div>
-            <div class="delete__block">
-                <button onclick="deleteBtn(this)">X</button>
-            </div>
-        </div>
-        <div class="task">
-            <div class="text">Сделать уборку</div>
-            <div class="delete__block">
-                <button onclick="deleteBtn(this)">X</button>
-            </div>
-        </div>
-        <div class="task">
-            <div class="text">Сделать уборку</div>
-            <div class="delete__block">
-                <button onclick="deleteBtn(this)">X</button>
-            </div>
-        </div>
-        <div class="task">
-            <div class="text">Сделать уборку</div>
-            <div class="delete__block">
-                <button onclick="deleteBtn(this)">X</button>
-            </div>
-        </div>
     </section>
 </body>
 </html>
