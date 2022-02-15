@@ -28,7 +28,7 @@ function deleteBtn(btn) {
     for (var i = 0, len = element.length; i < len; i++) {
         element[i].onclick = function() {
             let elem = this.parentNode;
-            let taskHTML = elem.parentNode.innerHTML
+            let taskHTML = elem.parentNode.innerHTML;
             //Clear</div><div class="delete__block" bis_skin_checked="1"><button onclick="deleteBtn(this)">X</button></div>
             let task1 = taskHTML.replace('<div class="text" bis_skin_checked="1">', "");
             let task2 = task1.replace('</div><div class="delete__block" bis_skin_checked="1"><button onclick="deleteBtn(this)">X</button></div>', "");
